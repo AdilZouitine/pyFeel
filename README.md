@@ -1,12 +1,6 @@
 pyFeel is a python library, it will facilitate your emotion analysis.
 pyFeel calculates seven emotions: positivity, joy, fear, sadness, anger, surprise, disgust.
 _______________
-pyFeel est une librairie en python, elle vous facilitera vos analyses d'émotions.
-pyFeel calcule sept émotions : positivité, joie, peur, tristesse, colère, surprise, dégout.
-
-_________________
-
-
 
 
     from pyFeel import feel
