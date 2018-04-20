@@ -32,7 +32,6 @@ _______________
 
  Amine Abdaoui, Jérôme Azé, Sandra Bringay et Pascal Poncelet. FEEL: French Expanded Emotion Lexicon. Language Resources and Evaluation, LRE 2016, pp 1-23.
 
-_________
 
 ## Bibliograpy
 
