@@ -28,9 +28,10 @@ PyPI is coming ...
 _______________
 
     >>> from pyFeel import Feel
-    >>> test = Feel("Ma classe marche bien, c'est génial non ?")
+    >>> test = Feel("Ma classe marche bien, c'est sympathique non ?")
     >>> test.emotions()
-    Out : {'positivity': 1.0, 'joy': 0.25, 'fear': 0.0, 'sadness': 0.25, 'angry': 0.0, 'surprise': 0.0, 'disgust': 0.0}
+    Out : {'positivity': 1.0, 'joy': 0.25, 'fear': 0.0, 'sadness': 0.0, 'angry': 0.0, 'surprise': 0.0, 'disgust': 0.0}
+
 
 
 
