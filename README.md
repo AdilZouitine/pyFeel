@@ -35,7 +35,7 @@ _______________
 
 
 
- For more information contact me: adilzoutinegm@gmail.com
+ For more information contact me: adilzouitinegm@gmail.com
 
 ## For the lexicon
 
