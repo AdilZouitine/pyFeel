@@ -15,11 +15,7 @@ If you want to install it :
  - Python 3
  - numpy : run `pip install numpy`
  - nltk : run `pip install nltk`
- - Don't forget to download nltk data with :
-
-
-    >>> import nltk
-    >>> nltk.download('punkt')
+ - Don't forget to download nltk data [punkt] !!
 
 
 **Let's play now !**
