@@ -17,8 +17,10 @@ If you want to install it :
  - nltk : run `pip install nltk`
  - Don't forget to download nltk data with :
 
-  `>>> import nltk`
- `>>> nltk.download('punkt')`
+
+    >>> import nltk
+    >>> nltk.download('punkt')
+
 
 **Let's play now !**
 
