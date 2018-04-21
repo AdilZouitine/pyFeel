@@ -1,3 +1,4 @@
+
 # pyFeel
 
 pyFeel is a python library, it will facilitate your emotion analysis in french.
@@ -14,6 +15,10 @@ If you want to install it :
  - Python 3
  - numpy : run `pip install numpy`
  - nltk : run `pip install nltk`
+ - Don't forget to download nltk data with :
+
+  `>>> import nltk`
+ `>>> nltk.download('punkt')`
 
 **Let's play now !**
 
