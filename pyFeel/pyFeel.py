@@ -10,15 +10,15 @@ from nltk import word_tokenize
 import os.path
 
 
-__all__ = ['feel']
+__all__ = ['Feel']
 
-class feel():
+class Feel():
     '''
     Calculates the emotion of a string with a'bag of word' method.
     object.dict to see the bag of word.
 
-    >>> from pyFeel import feel
-    >>> test = feel("Ma classe marche bien, c'est génial non ?")
+    >>> from pyFeel import Feel
+    >>> test = Feel("Ma classe marche bien, c'est génial non ?")
     >>> test.emotions()
     Out : {'positivity': 1.0, 'joy': 0.25, 'fear': 0.0, 'sadness': 0.25,
           'angry': 0.0, 'surprise': 0.0, 'disgust': 0.0}
@@ -30,7 +30,7 @@ class feel():
         '''
 
         scriptpath = os.path.dirname(__file__)
-        dict_name = os.path.join(scriptpath, 'feel.npy')
+        dict_name = os.path.join(scriptpath, 'Feel.npy')
 
         self.dict = np.load(dict_name).item()
         self.token = [word for word in word_tokenize(text.lower())]
@@ -68,5 +68,5 @@ class feel():
         return self.sentiment
 
 if __name__ == '__main__':
-    test = feel("Ma classe marche bien, c'est génial non ?")
+    test = Feel("Ma classe marche bien, c'est génial non ?")
     print(test.emotions())

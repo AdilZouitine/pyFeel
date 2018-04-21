@@ -3,6 +3,6 @@
 """
 @author: Adil Zouitine <adilzouitinegm@gmail.com>
 """
-from .pyFeel import feel
+from .pyFeel import Feel
 
 __version__ = "0.1"
