@@ -1,7 +1,7 @@
 # pyFeel
 
 pyFeel is a python library, it will facilitate your emotion analysis in french.
-pyFeel calculates seven emotions: positivity, joy, fear, sadness, anger, surprise, disgust
+pyFeel computes seven emotions: positivity, joy, fear, sadness, anger, surprise, disgust
 with a bag of word method.
 
 
