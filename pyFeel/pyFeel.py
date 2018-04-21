@@ -30,7 +30,7 @@ class Feel():
         '''
 
         scriptpath = os.path.dirname(__file__)
-        dict_name = os.path.join(scriptpath, 'Feel.npy')
+        dict_name = os.path.join(scriptpath, 'feel.npy')
 
         self.dict = np.load(dict_name).item()
         self.token = [word for word in word_tokenize(text.lower())]
@@ -53,7 +53,7 @@ class Feel():
 
         Input : (self) Output : dict
         '''
-        
+
         retain_word = 0
         for word in self.token:
             if word.lower() in self.dict:
