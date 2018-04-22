@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr 19 21:51:51 2018
 
 @author: Adil Zouitine <adilzouitinegm@gmail.com
+
 """
 import numpy as np
 from nltk import word_tokenize
@@ -68,5 +68,5 @@ class Feel():
         return self.sentiment
 
 if __name__ == '__main__':
-    test = Feel("Ma classe marche bien, c'est génial non ?")
+    test = Feel("Ma classe fonctionne bien, c'est sympathique non ?")
     print(test.emotions())
