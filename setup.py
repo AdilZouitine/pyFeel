@@ -17,5 +17,6 @@ setup(name='pyFeel',
       author_email='adilzouitine@gmail.com',
       license='MIT',
       packages=find_packages(),
+      install_requires=['numpy>=1.19.1'],
       include_package_data=True,
       zip_safe=False)
